@@ -1858,22 +1858,22 @@ def main():
             #### 3️⃣ Soft Skills (Sheet 'softskills')
             - **student_id**: ID yang sama dengan sheet 'students'
             - Kolom-kolom soft skill: **Komunikasi**, **Kepemimpinan**, **Pemecahan Masalah**, **Kreativitas**, **Kerja Sama Tim**, **Adaptabilitas**, **Manajemen Waktu**, **Kemandirian**
-            - Nilai dalam skala 1-100 (bukan 1-5), di mana:
-                - 1-20: Sangat kurang
-                - 21-40: Kurang
-                - 41-60: Cukup
-                - 61-80: Baik
-                - 81-100: Sangat baik
+            - Nilai dalam skala 1-5, di mana:
+                - 1: Sangat kurang
+                - 2: Kurang
+                - 3: Cukup
+                - 4: Baik
+                - 5: Sangat baik
             
             #### 4️⃣ Minat & Bakat (Sheet 'interests')
             - **student_id**: ID yang sama dengan sheet 'students'
             - Kolom-kolom Holland Code: **Realistic**, **Investigative**, **Artistic**, **Social**, **Enterprising**, **Conventional**
-            - Nilai dalam skala 1-100 (bukan 1-5), di mana:
-                - 1-20: Sangat tidak sesuai
-                - 21-40: Tidak sesuai
-                - 41-60: Netral
-                - 61-80: Sesuai
-                - 81-100: Sangat sesuai
+            - Nilai dalam skala 1-5, di mana:
+                - 1: Sangat tidak sesuai
+                - 2: Tidak sesuai
+                - 3: Netral
+                - 4: Sesuai
+                - 5: Sangat sesuai
             
             #### 5️⃣ Ekstrakurikuler (Sheet 'extracurricular')
             - **student_id**: ID yang sama dengan sheet 'students' (satu siswa dapat memiliki beberapa baris untuk beberapa ekstrakurikuler)
@@ -1885,7 +1885,7 @@ def main():
                 - Seni & Budaya (tari, musik, teater, dll)
                 - Bahasa (English club, Jepang, debat, dll)
                 - Keagamaan (Rohis, Rokris, dll)
-            - **tingkat_keterlibatan**: Nilai dalam skala 1-100 yang menunjukkan intensitas partisipasi
+            - **tingkat_keterlibatan**: Nilai dalam skala 1-5 yang menunjukkan intensitas partisipasi
             - **prestasi**: "Ya" jika pernah mendapatkan prestasi, "Tidak" jika belum
             
             ### Cara Pengisian Template
@@ -1899,7 +1899,6 @@ def main():
             ### Tips Pengisian
             
             - Pastikan ID siswa konsisten di semua sheet
-            - Gunakan skala 1-100 untuk semua penilaian (soft skills, minat, tingkat keterlibatan)
             - Untuk ekstrakurikuler, gunakan kategori sesuai dengan daftar yang disediakan
             - Satu siswa dapat memiliki lebih dari satu ekstrakurikuler
             """)
